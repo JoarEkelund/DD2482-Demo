@@ -10,6 +10,7 @@ public class Morse {
 
     public static void main(String[] args) {
         init();
+        //hello
         for(String str : args) {
             str = str.toLowerCase();
             if(str.matches("^[a-z0-9 ]*$")) {
